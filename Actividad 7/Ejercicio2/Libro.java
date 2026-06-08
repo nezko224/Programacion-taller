@@ -6,14 +6,14 @@ public class Libro {
     private int cantidadPaginas;
 
     public Libro(String titulo, String isbn, int cantidadPaginas) {
-        this.titulo          = titulo;
-        this.isbn            = isbn;
+        this.titulo = titulo;
+        this.isbn = isbn;
         this.cantidadPaginas = cantidadPaginas;
     }
 
-    public String getTitulo()        { return titulo; }
-    public String getIsbn()          { return isbn; }
-    public int getCantidadPaginas()  { return cantidadPaginas; }
+    public String getTitulo(){ return titulo; }
+    public String getIsbn(){ return isbn; }
+    public int getCantidadPaginas(){ return cantidadPaginas; }
 
 
     public String toString() {
